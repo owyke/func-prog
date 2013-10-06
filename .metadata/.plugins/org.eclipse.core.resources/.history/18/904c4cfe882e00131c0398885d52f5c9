@@ -1,0 +1,9 @@
+package objsets.intset
+
+object IntSetsRun {
+
+    def main(args: Array[String]) {
+        val s1 = new NonEmpty(5, new Empty, new Empty)
+        println(s1)
+    }
+}

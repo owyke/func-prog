@@ -1,0 +1,6 @@
+eclipse.preferences.version=1
+formatter.indentSpaces=4
+org.scala-ide.sdt.core.diagnostic.currentPluginVersion=3.0.1.v-2_10-201307181517-b1c1861
+scala.tools.eclipse.editor.smartBraces=true
+scala.tools.eclipse.editor.smartBrackets=true
+scala.tools.eclipse.editor.smartParens=true

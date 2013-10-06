@@ -1,0 +1,9 @@
+package objsets.intsets
+
+
+
+object test {
+
+	val t1 = new NonEmpty(3, new Empty, new Empty)
+
+}

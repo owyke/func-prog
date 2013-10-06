@@ -1,0 +1,6 @@
+package objsets.intset
+
+object IntSetsRun {
+
+    val s1 = new NonEmpty(5, new Empty, new Empty)
+}
