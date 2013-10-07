@@ -43,6 +43,7 @@ object Lists {
      if(xs.isEmpty) throw new NoSuchElementException else max(xs, Int.MinValue) 
   }
   
+  
   def max(xs: List[Int], currentMax : Int): Int = {
     if(xs.isEmpty) currentMax else max(xs.tail, Math.max(currentMax, xs.head)) 
   }

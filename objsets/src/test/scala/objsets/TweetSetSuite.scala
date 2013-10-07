@@ -16,6 +16,8 @@ class TweetSetSuite extends FunSuite {
     val set4c = set3.incl(c)
     val set4d = set3.incl(d)
     val set5 = set4c.incl(d)
+    
+    val set6 = set1.incl(new Tweet("asd","qwe",4)).incl(new Tweet("asd1","qwe1",40)).incl(new Tweet("asd2","qwe2",33)).incl(new Tweet("asd3","qwe3",1))
   }
 
   def asSet(tweets: TweetSet): Set[Tweet] = {
@@ -61,12 +63,34 @@ class TweetSetSuite extends FunSuite {
       assert(size(set1.union(set5)) === 4)
     }
   }
+  test("max: with empty set )") {
+      new TestSets {
+          val thrown = intercept[NoSuchElementException] {
+              set1.mostRetweeted
+          }
+      }
+  }
+  test("max: with set 5)") {
+      new TestSets {
+          assert(set5.mostRetweeted.retweets == 20)
+      }
+  }
+  test("max: with set 6)") {
+      new TestSets {
+          assert(set6.mostRetweeted.retweets == 40)
+      }
+  }
 
   test("descending: set5") {
     new TestSets {
       val trends = set5.descendingByRetweet
-      assert(!trends.isEmpty)
+      assert(!trends.isEmpty,"should not be empty")
       assert(trends.head.user == "a" || trends.head.user == "b")
     }
+  }
+  test("runner") {
+      new TestSets {
+          GoogleVsApple.trending
+      }
   }
 }
