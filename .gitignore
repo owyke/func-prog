@@ -2,17 +2,10 @@
 .classpath
 .project
 .settings/
-.metadata
-
-# Intellij
-.idea/
-*.iml
-*.iws
-
-# Mac
-.DS_Store
+.metadata/
+.metadata/**
 
 # Maven
 log/
 target/
-*.class
+**.class
