@@ -1,6 +1,8 @@
+package week4
+
 object NaturalNumbers {
     def main(args: Array[String]) {
-        println("==== " + (Zero.successor.successor.successor - Zero).numRep)
+        println("==== " + (Zero.successor.successor.successor - Zero.successor.successor+ Zero.successor).numRep)
     }
 }
 
@@ -37,25 +39,25 @@ class Succ(n: Nat) extends Nat {
     def successor: Nat = new Succ(this)
     def + (that: Nat): Nat = new Succ(n + that)
 
-    def ++ (that: Nat): Nat = {
-        def plusAcc(thatRemaining: Nat, acc: Nat): Nat =  {
-            if (thatRemaining.isZero) acc
-            else plusAcc(thatRemaining.predecessor, acc.successor)
-        }
-        plusAcc(that, this)
-    }
+//    def ++ (that: Nat): Nat = {
+//        def plusAcc(thatRemaining: Nat, acc: Nat): Nat =  {
+//            if (thatRemaining.isZero) acc
+//            else plusAcc(thatRemaining.predecessor, acc.successor)
+//        }
+//        plusAcc(that, this)
+//    }
     
     
     def - (that: Nat): Nat = if(that.isZero) this else n - that.predecessor
     
-    def -- (that: Nat): Nat = {
-        def minusAcc(thatRemaining: Nat, acc: Nat): Nat =  {
-            if (thatRemaining.isZero) acc
-            else if (acc.isZero) throw new NoSuchElementException("Subtraction would lead to undefined number")
-            else minusAcc(thatRemaining.predecessor, acc.predecessor)
-        }
-        minusAcc(that, this)
-    }
+//    def -- (that: Nat): Nat = {
+//        def minusAcc(thatRemaining: Nat, acc: Nat): Nat =  {
+//            if (thatRemaining.isZero) acc
+//            else if (acc.isZero) throw new NoSuchElementException("Subtraction would lead to undefined number")
+//            else minusAcc(thatRemaining.predecessor, acc.predecessor)
+//        }
+//        minusAcc(that, this)
+//    }
     
     def numRep: Int = predecessor.numRep + 1
     
