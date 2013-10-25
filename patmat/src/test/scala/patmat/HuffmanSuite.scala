@@ -108,6 +108,12 @@ class HuffmanSuite extends FunSuite {
         assert(decode(createCodeTree(string2Chars("aabb")), List(0, 0, 1, 1)) === string2Chars("aabb"))
     }
 
+    test("encoding") {
+        new TestTrees {
+            println(encode(loremTree)(loremChars).length)
+        }
+    }
+
     test("decode with french") {
         assert(decode(frenchCode, List(1, 1, 0)) === string2Chars("e"))
     }
@@ -138,7 +144,7 @@ class HuffmanSuite extends FunSuite {
 
     test("quick encode") {
         new TestTrees {
-            assert(quickEncode(t2)("abd".toList)===List(0, 0, 0, 1, 1))
+            assert(quickEncode(t2)("abd".toList) === List(0, 0, 0, 1, 1))
         }
     }
 }

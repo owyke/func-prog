@@ -18,9 +18,16 @@ object Huffman {
      * present in the leaves below it. The weight of a `Fork` node is the sum of the weights of these
      * leaves.
      */
-    abstract class CodeTree
-    case class Fork(left: CodeTree, right: CodeTree, chars: List[Char], weight: Int) extends CodeTree
-    case class Leaf(char: Char, weight: Int) extends CodeTree
+    abstract class CodeTree {
+        def weight: Int;
+    }
+    case class Fork(left: CodeTree, right: CodeTree, chars: List[Char], w: Int) extends CodeTree {
+        override val weight = w
+    }
+    case class Leaf(char: Char, w: Int) extends CodeTree
+    {
+        override val weight = w
+    }
 
     // Part 1: Basics
 
@@ -135,6 +142,21 @@ object Huffman {
         case x::Nil => trees
         case t1::t2::xs => makeCodeTree(t1, t2)::xs 
     }
+    
+    def sortTrees(trees: List[CodeTree]): List[CodeTree] =  trees match{
+        case Nil => {
+            List[CodeTree]()
+        }
+        case e::theTail => {
+            insertTree(e, sortTrees(theTail))
+        }
+    }
+    
+    def insertTree(tree: CodeTree, list: List[CodeTree]): List[CodeTree] = list match {
+        case Nil => List(tree)
+        case e::theTail => if(e.weight >= tree.weight) tree :: list else e :: insertTree(tree, theTail)
+
+    }
 
     /**
      * This function will be called in the following way:
@@ -153,7 +175,7 @@ object Huffman {
      *    the example invocation. Also define the return type of the `until` function.
      *  - try to find sensible parameter names for `xxx`, `yyy` and `zzz`.
      */
-    def until(isSingleton: (List[CodeTree]) => Boolean, combine: (List[CodeTree]) => List[CodeTree])(trees: List[CodeTree]): CodeTree = if(trees == Nil) throw new NoSuchElementException("until.trees == Nil") else if(isSingleton(trees)) trees.head else until(isSingleton,combine)(combine(trees))
+    def until(isSingleton: (List[CodeTree]) => Boolean, combine: (List[CodeTree]) => List[CodeTree])(trees: List[CodeTree]): CodeTree = if(trees == Nil) throw new NoSuchElementException("until.trees == Nil") else if(isSingleton(trees)) trees.head else until(isSingleton,combine)(sortTrees(combine(trees)))
         
     /**
      * This function creates a code tree which is optimal to encode the text `chars`.

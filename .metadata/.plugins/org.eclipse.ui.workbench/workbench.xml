@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="37" version="2.0">
+<workbench progressCount="33" version="2.0">
 <workbenchAdvisor/>
 <window height="1410" width="1280" x="1280" y="0">
 <fastViewData fastViewLocation="1024"/>
@@ -20,7 +20,7 @@
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="190" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
-<coolItem id="org.scalaide.worksheet.editors.ScriptEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.scalaide.worksheet.editors.ScriptEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="scala.tools.eclipse.ScalaClassFileEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.jdt.ui.ClassFileEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typePlaceholder" x="-1" y="-1"/>
@@ -35,48 +35,13 @@
 <folder appearance="1" expanded="2">
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
-<part id="1"/>
-<part id="2"/>
-<part id="3"/>
-<part id="4"/>
-<part id="5"/>
-<part id="6"/>
-<part id="7"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="org.scalaide.worksheet.editors.ScriptEditor" name="FixedPoint.sc" partName="FixedPoint.sc" path="E:/utveckling/repos/funcprog-assignments/funsets/src/main/scala/funsets/FixedPoint.sc" title="FixedPoint.sc" tooltip="funsets/src/main/scala/funsets/FixedPoint.sc" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/funsets/src/main/scala/funsets/FixedPoint.sc"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="594" selectionTopPixel="0"/>
-</editor>
-<editor id="org.scalaide.worksheet.editors.ScriptEditor" name="Currying.sc" partName="Currying.sc" path="E:/utveckling/repos/funcprog-assignments/funsets/src/main/scala/funsets/Currying.sc" title="Currying.sc" tooltip="funsets/src/main/scala/funsets/Currying.sc" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/funsets/src/main/scala/funsets/Currying.sc"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="179" selectionTopPixel="0"/>
-</editor>
-<editor id="org.scalaide.worksheet.editors.ScriptEditor" name="RationalNumbers.sc" partName="RationalNumbers.sc" path="E:/utveckling/repos/funcprog-assignments/funsets/src/main/scala/RationalNumbers.sc" title="RationalNumbers.sc" tooltip="funsets/src/main/scala/RationalNumbers.sc" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/funsets/src/main/scala/RationalNumbers.sc"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="903" selectionTopPixel="0"/>
-</editor>
-<editor id="org.scalaide.worksheet.editors.ScriptEditor" name="Scribbles.sc" partName="Scribbles.sc" path="E:/utveckling/repos/funcprog-assignments/recfun/src/main/scala/recfun/Scribbles.sc" title="Scribbles.sc" tooltip="recfun/src/main/scala/recfun/Scribbles.sc" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/recfun/src/main/scala/recfun/Scribbles.sc"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="185" selectionTopPixel="0"/>
-</editor>
-<editor id="scala.tools.eclipse.ScalaSourceFileEditor" name="IntSet.scala" partName="IntSet.scala" path="E:/utveckling/repos/funcprog-assignments/objsets/src/main/scala/objsets/intset/IntSet.scala" title="IntSet.scala" tooltip="objsets/src/main/scala/objsets/intset/IntSet.scala" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/objsets/src/main/scala/objsets/intset/IntSet.scala"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="155" selectionTopPixel="0"/>
-</editor>
-<editor activePart="true" focus="true" id="scala.tools.eclipse.ScalaSourceFileEditor" name="Empty.scala" partName="Empty.scala" path="E:/utveckling/repos/funcprog-assignments/objsets/src/main/scala/objsets/intset/Empty.scala" title="Empty.scala" tooltip="objsets/src/main/scala/objsets/intset/Empty.scala" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/objsets/src/main/scala/objsets/intset/Empty.scala"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="249" selectionTopPixel="0"/>
-</editor>
-<editor id="scala.tools.eclipse.ScalaSourceFileEditor" name="NonEmpty.scala" partName="NonEmpty.scala" path="E:/utveckling/repos/funcprog-assignments/objsets/src/main/scala/objsets/intset/NonEmpty.scala" title="NonEmpty.scala" tooltip="objsets/src/main/scala/objsets/intset/NonEmpty.scala" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/objsets/src/main/scala/objsets/intset/NonEmpty.scala"/>
-<editorState selectionHorizontalPixel="0" selectionLength="5" selectionOffset="503" selectionTopPixel="0"/>
-</editor>
-<editor id="scala.tools.eclipse.ScalaSourceFileEditor" name="IntSetsRun.scala" partName="IntSetsRun.scala" path="E:/utveckling/repos/funcprog-assignments/objsets/src/main/scala/objsets/intset/IntSetsRun.scala" title="IntSetsRun.scala" tooltip="objsets/src/main/scala/objsets/intset/IntSetsRun.scala" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/objsets/src/main/scala/objsets/intset/IntSetsRun.scala"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="255" selectionTopPixel="0"/>
+<editor activePart="true" focus="true" id="scala.tools.eclipse.ScalaSourceFileEditor" name="ListRunner.scala" partName="ListRunner.scala" path="E:/utveckling/repos/funcprog-assignments/week5/src/ListRunner.scala" title="ListRunner.scala" tooltip="week5/src/ListRunner.scala" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/week5/src/ListRunner.scala"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="207" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
@@ -392,7 +357,6 @@
 <navigationHistory>
 <editors>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.scalaide.worksheet.editors.ScriptEditor" path="/objsets/src/main/scala/objsets/IntSet.sc"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="scala.tools.eclipse.ScalaSourceFileEditor" path="/objsets/src/main/scala/objsets/TweetData.scala"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.scalaide.worksheet.editors.ScriptEditor" path="/funsets/src/main/scala/funsets/Currying.sc"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.scalaide.worksheet.editors.ScriptEditor" path="/funsets/src/main/scala/funsets/FixedPoint.sc"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="scala.tools.eclipse.ScalaSourceFileEditor" path="/objsets/src/main/scala/objsets/intset/IntSet.scala"/>
@@ -401,156 +365,159 @@
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="scala.tools.eclipse.ScalaSourceFileEditor" path="/objsets/src/main/scala/objsets/intset/IntSetsRun.scala"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.scalaide.worksheet.editors.ScriptEditor" path="/objsets/src/main/scala/objsets/intset/IntSet.sc"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="scala.tools.eclipse.ScalaSourceFileEditor" path="/objsets/src/main/scala/objsets/TweetSet.scala"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.scalaide.worksheet.editors.ScriptEditor" path="/funsets/src/main/scala/funsets/FixedPoint.sc"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="scala.tools.eclipse.ScalaSourceFileEditor" path="/week5/src/ListRunner.scala"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="scala.tools.eclipse.ScalaSourceFileEditor" path="/week5/src/ListRunner.scala"/>
 </editors>
-<item historyLabel="IntSet.sc" index="0">
-<position info="not_deleted" x="270" y="0"/>
-</item>
-<item historyLabel="TweetData.scala" index="1">
-<position info="not_deleted" x="56" y="0"/>
-</item>
-<item historyLabel="IntSet.sc" index="0">
-<position info="not_deleted" x="94" y="0"/>
-</item>
 <item historyLabel="IntSet.sc" index="0">
 <position/>
 </item>
-<item historyLabel="Currying.sc" index="2">
+<item historyLabel="Currying.sc" index="1">
 <position info="not_deleted" x="179" y="0"/>
 </item>
-<item historyLabel="FixedPoint.sc" index="3">
+<item historyLabel="FixedPoint.sc" index="2">
 <position info="not_deleted" x="594" y="0"/>
 </item>
 <item historyLabel="IntSet.sc" index="0">
 <position info="not_deleted" x="113" y="0"/>
 </item>
-<item historyLabel="IntSet.scala" index="4">
+<item historyLabel="IntSet.scala" index="3">
 <position info="not_deleted" x="0" y="0"/>
 </item>
 <item historyLabel="IntSet.sc" index="0">
 <position info="not_deleted" x="113" y="0"/>
 </item>
-<item historyLabel="IntSet.scala" index="4">
+<item historyLabel="IntSet.scala" index="3">
 <position info="not_deleted" x="155" y="0"/>
 </item>
 <item historyLabel="IntSet.sc" index="0">
 <position info="not_deleted" x="113" y="0"/>
 </item>
-<item historyLabel="Empty.scala" index="5">
+<item historyLabel="Empty.scala" index="4">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="NonEmpty.scala" index="6">
+<item historyLabel="NonEmpty.scala" index="5">
 <position info="not_deleted" x="0" y="0"/>
 </item>
 <item historyLabel="IntSet.sc" index="0">
 <position/>
 </item>
-<item historyLabel="Empty.scala" index="5">
+<item historyLabel="Empty.scala" index="4">
 <position info="not_deleted" x="249" y="0"/>
 </item>
-<item historyLabel="IntSet.scala" index="4">
+<item historyLabel="IntSet.scala" index="3">
 <position info="not_deleted" x="155" y="0"/>
 </item>
 <item historyLabel="IntSet.sc" index="0">
 <position info="not_deleted" x="113" y="0"/>
 </item>
-<item historyLabel="NonEmpty.scala" index="6">
+<item historyLabel="NonEmpty.scala" index="5">
 <position info="not_deleted" x="612" y="0"/>
 </item>
-<item historyLabel="Empty.scala" index="5">
+<item historyLabel="Empty.scala" index="4">
 <position info="not_deleted" x="93" y="0"/>
 </item>
-<item historyLabel="NonEmpty.scala" index="6">
+<item historyLabel="NonEmpty.scala" index="5">
 <position info="not_deleted" x="283" y="0"/>
 </item>
-<item historyLabel="Empty.scala" index="5">
+<item historyLabel="Empty.scala" index="4">
 <position info="not_deleted" x="93" y="0"/>
 </item>
-<item historyLabel="Empty.scala" index="5">
+<item historyLabel="Empty.scala" index="4">
 <position info="not_deleted" x="96" y="0"/>
 </item>
-<item historyLabel="NonEmpty.scala" index="6">
+<item historyLabel="NonEmpty.scala" index="5">
 <position info="not_deleted" x="552" y="0"/>
 </item>
-<item historyLabel="Empty.scala" index="5">
+<item historyLabel="Empty.scala" index="4">
 <position info="not_deleted" x="96" y="0"/>
 </item>
-<item historyLabel="IntSet.scala" index="4">
+<item historyLabel="IntSet.scala" index="3">
 <position info="not_deleted" x="155" y="0"/>
 </item>
-<item historyLabel="IntSetsRun.scala" index="7">
+<item historyLabel="IntSetsRun.scala" index="6">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="IntSetsRun.scala" index="7">
+<item historyLabel="IntSetsRun.scala" index="6">
 <position info="not_deleted" x="255" y="0"/>
 </item>
 <item historyLabel="IntSet.sc" index="0">
 <position info="not_deleted" x="113" y="0"/>
 </item>
-<item historyLabel="IntSet.sc" index="8">
+<item historyLabel="IntSet.sc" index="7">
 <position/>
 </item>
-<item historyLabel="TweetSet.scala" index="9">
+<item historyLabel="TweetSet.scala" index="8">
 <position info="not_deleted" x="3965" y="8"/>
 </item>
-<item historyLabel="IntSet.sc" index="8">
+<item historyLabel="IntSet.sc" index="7">
 <position/>
 </item>
-<item historyLabel="IntSet.sc" index="8">
+<item historyLabel="IntSet.sc" index="7">
 <position info="not_deleted" x="175" y="0"/>
 </item>
-<item historyLabel="IntSetsRun.scala" index="7">
+<item historyLabel="IntSetsRun.scala" index="6">
 <position info="not_deleted" x="255" y="0"/>
 </item>
-<item historyLabel="IntSetsRun.scala" index="7">
+<item historyLabel="IntSetsRun.scala" index="6">
 <position info="not_deleted" x="247" y="0"/>
 </item>
-<item historyLabel="Empty.scala" index="5">
+<item historyLabel="Empty.scala" index="4">
 <position info="not_deleted" x="213" y="0"/>
 </item>
-<item historyLabel="NonEmpty.scala" index="6">
+<item historyLabel="NonEmpty.scala" index="5">
 <position info="not_deleted" x="525" y="0"/>
 </item>
-<item historyLabel="IntSet.scala" index="4">
+<item historyLabel="IntSet.scala" index="3">
 <position info="not_deleted" x="155" y="0"/>
 </item>
-<item historyLabel="Empty.scala" index="5">
+<item historyLabel="Empty.scala" index="4">
 <position info="not_deleted" x="213" y="0"/>
 </item>
-<item historyLabel="IntSetsRun.scala" index="7">
+<item historyLabel="IntSetsRun.scala" index="6">
 <position info="not_deleted" x="258" y="0"/>
 </item>
-<item historyLabel="NonEmpty.scala" index="6">
+<item historyLabel="NonEmpty.scala" index="5">
 <position info="not_deleted" x="525" y="0"/>
 </item>
-<item historyLabel="IntSetsRun.scala" index="7">
+<item historyLabel="IntSetsRun.scala" index="6">
 <position info="not_deleted" x="227" y="0"/>
 </item>
-<item historyLabel="IntSetsRun.scala" index="7">
+<item historyLabel="IntSetsRun.scala" index="6">
 <position info="not_deleted" x="248" y="0"/>
 </item>
-<item historyLabel="NonEmpty.scala" index="6">
+<item historyLabel="NonEmpty.scala" index="5">
 <position info="not_deleted" x="525" y="0"/>
 </item>
-<item historyLabel="Empty.scala" index="5">
+<item historyLabel="Empty.scala" index="4">
 <position info="not_deleted" x="213" y="0"/>
 </item>
-<item historyLabel="NonEmpty.scala" index="6">
+<item historyLabel="NonEmpty.scala" index="5">
 <position info="not_deleted" x="525" y="0"/>
 </item>
-<item historyLabel="IntSetsRun.scala" index="7">
+<item historyLabel="IntSetsRun.scala" index="6">
 <position info="not_deleted" x="255" y="0"/>
 </item>
-<item historyLabel="NonEmpty.scala" index="6">
+<item historyLabel="NonEmpty.scala" index="5">
 <position info="not_deleted" x="482" y="0"/>
 </item>
-<item historyLabel="NonEmpty.scala" index="6">
+<item historyLabel="NonEmpty.scala" index="5">
 <position info="not_deleted" x="492" y="4"/>
 </item>
-<item historyLabel="NonEmpty.scala" index="6">
+<item historyLabel="NonEmpty.scala" index="5">
 <position info="not_deleted" x="503" y="5"/>
 </item>
-<item active="true" historyLabel="Empty.scala" index="5">
-<position info="not_deleted" x="213" y="0"/>
+<item historyLabel="Empty.scala" index="4">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="FixedPoint.sc" index="9">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="ListRunner.scala" index="10">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item active="true" historyLabel="ListRunner.scala" index="11">
+<position info="not_deleted" x="0" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -570,6 +537,9 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="scala.tools.eclipse.ScalaSourceFileEditor" name="ListRunner.scala" tooltip="week5/src/ListRunner.scala">
+<persistable path="/week5/src/ListRunner.scala"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="scala.tools.eclipse.ScalaSourceFileEditor" name="TweetSet.scala" tooltip="objsets/src/main/scala/objsets/TweetSet.scala">
 <persistable path="/objsets/src/main/scala/objsets/TweetSet.scala"/>
 </file>
@@ -611,9 +581,6 @@
 </file>
 <file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="FunSuite.class" tooltip="org.scalatest.FunSuite">
 <persistable org.eclipse.jdt.ui.ClassFileIdentifier="=example/lib_managed\/jars\/org.scalatest\/scalatest_2.10\/scalatest_2.10-1.9.1.jar&lt;org.scalatest(FunSuite.class"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="build.sbt" tooltip="example/build.sbt">
-<persistable path="/example/build.sbt"/>
 </file>
 </mruList>
 </workbench>
